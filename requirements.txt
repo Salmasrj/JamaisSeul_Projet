@@ -1,4 +1,8 @@
 streamlit
+streamlit-extras
 pandas
 plotly
-streamlit-lottie
+Pillow
+pathlib
+altair
+numpy
