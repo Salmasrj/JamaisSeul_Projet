@@ -520,7 +520,7 @@ st.markdown("""
 col1, col2, col3 = st.columns(3)
 
 with col1:
-    img_path_course = "assets/images/course.png"
+    img_path_course = "assets/images/course.jpg"
     img_base64_course = get_img_as_base64(img_path_course)
     if img_base64_course:
         st.markdown(f"""
@@ -544,7 +544,7 @@ with col1:
         """, unsafe_allow_html=True)
 
 with col2:
-    img_path_ateliers = "assets/images/ateliers.png"
+    img_path_ateliers = "assets/images/ateliers.jpg"
     img_base64_ateliers = get_img_as_base64(img_path_ateliers)
     if img_base64_ateliers:
         st.markdown(f"""
@@ -568,7 +568,7 @@ with col2:
         """, unsafe_allow_html=True)
 
 with col3:
-    img_path_rencontres = "assets/images/rencontres.png"
+    img_path_rencontres = "assets/images/rencontres.jpg"
     img_base64_rencontres = get_img_as_base64(img_path_rencontres)
     if img_base64_rencontres:
         st.markdown(f"""
