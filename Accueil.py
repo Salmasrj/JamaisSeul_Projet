@@ -460,12 +460,11 @@ st.markdown(f"""
         <h1>Les Saisons des Anciens</h1>
     </div>
     <div class="nav-links">
-        <a href="#" class="nav-link active">Accueil</a>
-        <a href="#" class="nav-link">Nous rejoindre</a>
-        <a href="#" class="nav-link">Qui sommes-nous ?</a>
-        <a href="#" class="nav-link">La course Jamais Seul</a>
-        <a href="#" class="nav-link">Rejoignez-nous</a>
-        <a href="#" class="nav-link">Contact</a>
+        <a href="" class="nav-link active">Accueil</a>
+        <a href="#about" class="nav-link">Qui sommes-nous ?</a>
+        <a href="#rejoindre" class="nav-link">Nous rejoindre</a>
+        <a href="/Jamais_Seul" class="nav-link">Projet Jamais Seul</a>
+        <a href="#contact" class="nav-link">Contact</a>
     </div>
 </div>
 """, unsafe_allow_html=True)
@@ -474,8 +473,9 @@ st.markdown(f"""
 st.markdown("""
 <div class="hero">
     <h1>Courir ensemble, à tout âge</h1>
-    <p>Bienvenue sur le site de l'association "Les Saisons des Anciens". Notre événement phare, la course Jamais Seul, permet aux personnes âgées de participer à une expérience sportive adaptée et conviviale.</p>
-    <a href="#" class="cta-button">Découvrir la course</a>
+    <p>Bienvenue sur le site de notre association "Les Saisons des Anciens".</p>
+    <h2> Notre événement phare, la course Jamais Seul, permet aux personnes âgées de participer à une expérience sportive adaptée et conviviale.</h2>
+    <a href="https://docs.google.com/forms/d/1P-mFD5ikxn6eCV_--sGzoYzzb738qJpeY7wqeuE45dQ/viewform?edit_requested=true" class="cta-button">Participer à la course</a>
 </div>
 """, unsafe_allow_html=True)
 
@@ -489,15 +489,15 @@ st.markdown("""
             <div class="stat-label">Participants seniors</div>
         </div>
         <div class="stat-item">
-            <div class="stat-number">150</div>
+            <div class="stat-number">30</div>
             <div class="stat-label">Bénévoles engagés</div>
         </div>
         <div class="stat-item">
-            <div class="stat-number">15</div>
+            <div class="stat-number">7</div>
             <div class="stat-label">Années d'expérience</div>
         </div>
         <div class="stat-item">
-            <div class="stat-number">20+</div>
+            <div class="stat-number">5+</div>
             <div class="stat-label">Partenaires</div>
         </div>
     </div>
@@ -506,8 +506,8 @@ st.markdown("""
 
 # Qui sommes-nous (formerly Notre mission)
 st.markdown("""
-<div class="section">
-    <h2 class="section-title" id="about">Qui sommes-nous ?</h2>
+<div class="section" id="about">
+    <h2 class="section-title">Qui sommes-nous ?</h2>
     <div class="row">
         <p>L'association "Les Saisons des Anciens" a été fondée en 2010 par un groupe de professionnels de la santé et d'amateurs de course à pied, avec une vision commune : créer des opportunités sportives et sociales pour les personnes âgées.</p>
         <p>Notre équipe est composée de bénévoles passionnés, de kinésithérapeutes, de médecins et de professionnels du sport adaptés aux seniors. Ensemble, nous travaillons pour proposer des activités qui maintiennent la forme physique et créent du lien social.</p>
@@ -604,38 +604,38 @@ st.markdown("""
 # Upcoming events
 st.markdown("""
 <div class="section">
-    <h2 class="section-title">Événements à venir</h2>
+    <h2 class="section-title" id="evenement">Événements à venir</h2>
     <div class="event-card">
         <div class="event-date">
-            <div style="font-weight: bold; font-size: 1.5rem;">15</div>
-            <div>JUIN</div>
-        </div>
-        <div class="event-content">
-            <h3 style="margin-top: 0;">Course Jamais Seul 2025</h3>
-            <p>Notre événement annuel revient pour sa 15ème édition au Parc Municipal. Inscriptions ouvertes!</p>
-            <a href="#" class="cta-button" style="padding: 8px 20px; font-size: 0.9rem;">S'inscrire</a>
-        </div>
-    </div>
-    <div class="event-card">
-        <div class="event-date">
-            <div style="font-weight: bold; font-size: 1.5rem;">28</div>
+            <div style="font-weight: bold; font-size: 1.5rem;">2</div>
             <div>MAI</div>
         </div>
         <div class="event-content">
             <h3 style="margin-top: 0;">Atelier préparation physique</h3>
             <p>Séance spéciale pour préparer la course avec nos coaches spécialisés en activité physique adaptée.</p>
-            <a href="#" class="cta-button" style="padding: 8px 20px; font-size: 0.9rem;">En savoir plus</a>
+            <a href="#contact" class="cta-button" style="padding: 8px 20px; font-size: 0.9rem;">En savoir plus</a>
         </div>
     </div>
     <div class="event-card">
         <div class="event-date">
-            <div style="font-weight: bold; font-size: 1.5rem;">10</div>
+            <div style="font-weight: bold; font-size: 1.5rem;">9</div>
+            <div>MAI</div>
+        </div>
+        <div class="event-content">
+            <h3 style="margin-top: 0;">Course Jamais Seul 2025</h3>
+            <p>Notre événement annuel revient pour sa 15ème édition au Parc Municipal. Inscriptions ouvertes!</p>
+            <a href="https://docs.google.com/forms/d/1P-mFD5ikxn6eCV_--sGzoYzzb738qJpeY7wqeuE45dQ/viewform?edit_requested=true" class="cta-button" style="padding: 8px 20px; font-size: 0.9rem;">S'inscrire</a>
+        </div>
+    </div>
+    <div class="event-card">
+        <div class="event-date">
+            <div style="font-weight: bold; font-size: 1.5rem;">17</div>
             <div>MAI</div>
         </div>
         <div class="event-content">
             <h3 style="margin-top: 0;">Conférence bien-vieillir</h3>
             <p>Intervention de spécialistes sur les bienfaits de l'activité physique chez les seniors.</p>
-            <a href="#" class="cta-button" style="padding: 8px 20px; font-size: 0.9rem;">En savoir plus</a>
+            <a href="#contact" class="cta-button" style="padding: 8px 20px; font-size: 0.9rem;">En savoir plus</a>
         </div>
     </div>
 </div>
@@ -648,7 +648,7 @@ testimonial_cols = st.columns(2)
 with testimonial_cols[0]:
     st.markdown("""
     <div class="testimonial">
-        <p>"Grâce à la course Jamais Seul, j'ai retrouvé le goût de l'activité physique à 78 ans. Les bénévoles sont extraordinaires et l'ambiance est tellement chaleureuse !"</p>
+        <p>"Grâce à l'association, j'ai retrouvé le goût de l'activité physique à 78 ans. Les bénévoles sont extraordinaires et l'ambiance est tellement chaleureuse !"</p>
         <div class="testimonial-author">Jeanne, 78 ans</div>
     </div>
     """, unsafe_allow_html=True)
@@ -660,71 +660,6 @@ with testimonial_cols[1]:
         <div class="testimonial-author">Marc, bénévole depuis 5 ans</div>
     </div>
     """, unsafe_allow_html=True)
-
-# NEW: Rejoignez-nous section
-st.markdown("""
-<div class="section" id="join-us">
-    <h2 class="section-title">Rejoignez-nous</h2>
-    <p>L'association Les Saisons des Anciens est toujours à la recherche de nouvelles personnes souhaitant s'impliquer, que ce soit comme :</p>
-    <div style="display: flex; flex-wrap: wrap; margin-top: 20px; gap: 20px;">
-        <div style="flex: 1; min-width: 250px; background-color: #f5f5f5; padding: 20px; border-radius: 10px;">
-            <h3 style="color: #34a0a2;">Participant</h3>
-            <p>Vous avez plus de 60 ans et souhaitez participer à nos activités ? Rejoignez nos séances hebdomadaires ou inscrivez-vous à nos événements spéciaux.</p>
-            <a href="#" class="cta-button" style="padding: 8px 20px; font-size: 0.9rem;">Devenir participant</a>
-        </div>
-        <div style="flex: 1; min-width: 250px; background-color: #f5f5f5; padding: 20px; border-radius: 10px;">
-            <h3 style="color: #34a0a2;">Bénévole</h3>
-            <p>Envie de donner de votre temps pour une cause qui a du sens ? Nos bénévoles sont essentiels au bon déroulement de toutes nos activités.</p>
-            <a href="#" class="cta-button" style="padding: 8px 20px; font-size: 0.9rem;">Devenir bénévole</a>
-        </div>
-        <div style="flex: 1; min-width: 250px; background-color: #f5f5f5; padding: 20px; border-radius: 10px;">
-            <h3 style="color: #34a0a2;">Partenaire</h3>
-            <p>Vous représentez une entreprise et souhaitez soutenir notre cause ? Découvrez nos différentes formules de partenariat.</p>
-            <a href="#" class="cta-button" style="padding: 8px 20px; font-size: 0.9rem;">Devenir partenaire</a>
-        </div>
-    </div>
-</div>
-""", unsafe_allow_html=True)
-
-# NEW: Contact section
-st.markdown("""
-<div class="section" id="contact">
-    <h2 class="section-title">Contact</h2>
-    <div style="display: flex; flex-wrap: wrap; gap: 40px;">
-        <div style="flex: 1; min-width: 300px;">
-            <h3>Nos coordonnées</h3>
-            <p><strong>Adresse :</strong> 15 rue des Saisons, 75000 Paris</p>
-            <p><strong>Téléphone :</strong> 01 23 45 67 89</p>
-            <p><strong>Email :</strong> contact@saisons-anciens.fr</p>
-            <p><strong>Horaires d'ouverture :</strong><br>
-            Lundi au vendredi : 9h00 - 18h00<br>
-            Samedi : 10h00 - 16h00</p>
-        </div>
-        <div style="flex: 1; min-width: 300px;">
-            <h3>Formulaire de contact</h3>
-            <div class="contact-form">
-                <input type="text" placeholder="Nom" />
-                <input type="email" placeholder="Email" />
-                <input type="text" placeholder="Sujet" />
-                <textarea placeholder="Votre message"></textarea>
-                <button class="cta-button" style="width: 100%;">Envoyer</button>
-            </div>
-        </div>
-    </div>
-</div>
-""", unsafe_allow_html=True)
-
-# Newsletter
-st.markdown("""
-<div class="newsletter">
-    <h2>Restez informé</h2>
-    <p>Inscrivez-vous à notre newsletter pour recevoir les dernières actualités de l'association et les informations sur nos prochains événements.</p>
-    <div style="display: flex; max-width: 500px; margin-top: 20px;">
-        <input type="email" placeholder="Votre adresse email" style="flex-grow: 1; padding: 12px; border: none; border-radius: 50px 0 0 50px; outline: none;">
-        <button class="cta-button" style="border-radius: 0 50px 50px 0; margin: 0;">S'abonner</button>
-    </div>
-</div>
-""", unsafe_allow_html=True)
 
 # Partners - Modified for 6 partners with horizontal scrolling
 img_base64_AXA = get_img_as_base64("assets/images/AXA_Logo.png")
@@ -757,6 +692,73 @@ st.markdown(f"""
 </div>
 """, unsafe_allow_html=True)
 
+# NEW: Rejoignez-nous section
+st.markdown("""
+<div class="section" id="rejoindre">
+    <h2 class="section-title">Rejoignez-nous</h2>
+    </br>
+    <p>L'association Les Saisons des Anciens est toujours à la recherche de nouvelles personnes souhaitant s'impliquer, que ce soit comme :</p>
+    <div style="display: flex; flex-wrap: wrap; margin-top: 20px; gap: 20px;">
+        <div style="flex: 1; min-width: 250px; background-color: #f5f5f5; padding: 20px; border-radius: 10px;">
+            <h3 style="color: #34a0a2;">Participant</h3>
+            <p>Vous avez plus de 60 ans et souhaitez participer à nos activités ? Rejoignez nos séances hebdomadaires ou inscrivez-vous à nos événements spéciaux.</p>
+            <a href="#contact" class="cta-button" style="padding: 8px 20px; font-size: 0.9rem;">Devenir participant</a>
+        </div>
+        <div style="flex: 1; min-width: 250px; background-color: #f5f5f5; padding: 20px; border-radius: 10px;">
+            <h3 style="color: #34a0a2;">Bénévole</h3>
+            <p>Envie de donner de votre temps pour une cause qui a du sens ? Nos bénévoles sont essentiels au bon déroulement de toutes nos activités.</p>
+            <a href="#contact" class="cta-button" style="padding: 8px 20px; font-size: 0.9rem;">Devenir bénévole</a>
+        </div>
+        <div style="flex: 1; min-width: 250px; background-color: #f5f5f5; padding: 20px; border-radius: 10px;">
+            <h3 style="color: #34a0a2;">Partenaire</h3>
+            <p>Vous représentez une entreprise et souhaitez soutenir notre cause ? Découvrez nos différentes formules de partenariat.</p>
+            <a href="#contact" class="cta-button" style="padding: 8px 20px; font-size: 0.9rem;">Devenir partenaire</a>
+        </div>
+    </div>
+</div>
+""", unsafe_allow_html=True)
+
+# Newsletter
+st.markdown("""
+<div class="newsletter">
+    <h2>Restez informé</h2>
+    <p>Inscrivez-vous à notre newsletter pour recevoir les dernières actualités de l'association et les informations sur nos prochains événements.</p>
+    <div style="display: flex; max-width: 500px; margin-top: 20px;">
+        <input type="email" placeholder="Votre adresse email" style="flex-grow: 1; padding: 12px; border: none; border-radius: 50px 0 0 50px; outline: none;">
+        <button class="cta-button" style="border-radius: 0 50px 50px 0; margin: 0;">S'abonner</button>
+    </div>
+</div>
+""", unsafe_allow_html=True)
+
+# NEW: Contact section
+st.markdown("""
+<div class="section" id="contact">
+    <h2 class="section-title">Contact</h2>
+    <div style="display: flex; flex-wrap: wrap; gap: 40px;">
+        <div style="flex: 1; min-width: 300px;">
+            <h3 style="color: #34a0a2;">Nos coordonnées</h3>
+            <p><strong>Adresse :</strong> 7B Pl. Francheville, 24000 Périgeux</p>
+            <p><strong>Téléphone :</strong> 05 23 45 67 89</p>
+            <p><strong>Email :</strong> contact@saisons-anciens.fr</p>
+            <p><strong>Horaires d'ouverture :</strong><br>
+            Lundi au vendredi : 9h00 - 18h00<br>
+            Samedi : 10h00 - 16h00</p>
+        </div>
+        <div style="flex: 1; min-width: 300px;">
+            <h3 style="color: #34a0a2;">Formulaire de contact</h3>
+            <div class="contact-form">
+                <input type="text" placeholder="Nom" />
+                <input type="email" placeholder="Email" />
+                <input type="text" placeholder="Sujet" />
+                <textarea placeholder="Votre message"></textarea>
+                <button class="cta-button" style="width: 100%;">Envoyer</button>
+            </div>
+        </div>
+    </div>
+</div>
+""", unsafe_allow_html=True)
+
+
 # Footer with fixed social icons using emoji for reliability
 st.markdown("""
 <div class="footer">
@@ -774,21 +776,20 @@ st.markdown("""
             </div>
             <div class="footer-section" style="flex: 1; min-width: 200px; margin-right: 20px;">
                 <h3 class="footer-title">Navigation</h3>
-                <a href="#" class="footer-link">Accueil</a>
-                <a href="#" class="footer-link">Nous rejoindre</a>
-                <a href="#" class="footer-link">Qui sommes-nous ?</a>
-                <a href="#" class="footer-link">La course Jamais Seul</a>
-                <a href="#" class="footer-link">Rejoignez-nous</a>
-                <a href="#" class="footer-link">Contact</a>
+                <a href="#accueil" class="footer-link">Accueil</a>
+                <a href="#about" class="footer-link">Qui sommes-nous ?</a>
+                <a href="/Jamais_Seul" class="footer-link">Jamais Seul</a>
+                <a href="#rejoindre" class="footer-link">Nous rejoindre</a>
+                <a href="#contact" class="footer-link">Contact</a>
             </div>
             <div class="footer-section" style="flex: 1; min-width: 200px;">
                 <h3 class="footer-title">Contact</h3>
-                <p>15 rue des Saisons<br>75000 Paris</p>
-                <p>Tél: 01 23 45 67 89<br>Email: contact@saisons-anciens.fr</p>
+                <p>7B Pl. Francheville<br>24000 Périgeux</p>
+                <p>Tél: 05 23 45 67 89<br>Email: contact@saisons-anciens.fr</p>
             </div>
         </div>
         <div class="copyright">
-            © 2025 Les Saisons des Anciens - Tous droits réservés - Images générées par l'IA
+            © 2025 Les Saisons des Anciens - Tous droits réservés
             <div style="margin-top: 10px;">
                 <a href="#" style="color: rgba(255,255,255,0.6); margin-right: 20px; text-decoration: none;">Mentions légales</a>
                 <a href="#" style="color: rgba(255,255,255,0.6); text-decoration: none;">Politique de confidentialité</a>

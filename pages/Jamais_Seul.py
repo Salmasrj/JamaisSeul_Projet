@@ -2,7 +2,7 @@ import streamlit as st
 
 # PAGE CONFIGURATION MUST BE THE FIRST STREAMLIT COMMAND
 st.set_page_config(
-    page_title="Tableau de Bord | Jamais Seul",
+    page_title="Jamais Seul",
     page_icon="📊",
     layout="wide",
     initial_sidebar_state="expanded"
@@ -334,7 +334,7 @@ selected_period_index = periods.index(selected_period)
 st.title("🏃‍♂️ Gestion de projet pour la course Jamais Seul 🏃‍♀️")
 
 # Top level navigation with tabs
-tab_titles = ["📊 Général", "📅 Planning", "💰 Budget", "⚠️ Risques", "👥 Équipe"]
+tab_titles = ["📊 Tableau de bord", "📅 Planning", "💰 Budget", "⚠️ Risques", "👥 Équipe"]
 tabs = st.tabs(tab_titles)
 
 # Sidebar
